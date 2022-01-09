@@ -1,7 +1,15 @@
+html, body{
+    margin:0px;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+
 nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
+
 }
 
 nav ul {
@@ -54,11 +62,11 @@ nav ul li a {
 
       nav ul {
             max-height: 0px;
-            background: #000;
+            background: #fff;
       }
 
       nav.black ul {
-            background: #000;
+            background: #fff;
       }
 
       .showing {
@@ -70,6 +78,7 @@ nav ul li a {
             width: 100%;
             padding: 24px;
             text-align: center;
+
       }
 
       .menu-icon {
@@ -78,6 +87,66 @@ nav ul li a {
 
 }
 
-body {
-      background-color: lightpink;
+nav ul li a:hover{
+
+color: #A080C4;
+
 }
+
+body {
+      background-color: #FFD7DD;
+}
+
+p {
+      color: #fff;
+}
+
+.fade-in-down {
+      color: #fff;
+      animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  text-align: center;
+  font-size: 30px;
+ 
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;
+      transform: translateY(-20px);
+}
+  100% {opacity:1;
+transform: translateY(0): 
+  }
+}
+​
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
