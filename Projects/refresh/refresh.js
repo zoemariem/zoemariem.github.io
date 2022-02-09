@@ -1,5 +1,5 @@
 		window.onload = rndmImg;
-		var img = ["Raccoon.jpg", "cat.jpg", "fox.jpeg", "panda.jpg", "sloth.jpg", "zebra.jpg"]
+		var img = ["raccoon.jpg", "cat.jpg", "fox.jpeg", "panda.jpg", "sloth.jpg", "zebra.jpg"]
 		var cap = ["Raccoon", "Cat", "Fox", "Panda", "Sloth","Zebra"]
 
 	function rndmImg(){
