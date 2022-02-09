@@ -1,0 +1,19 @@
+h1{ 
+	font-style: italic;
+	font-family: "Courier new"; 
+	color: midnightblue
+}
+
+.image {
+	border-style: double;
+	border-color: midnightblue;
+	float:left;
+}
+
+
+
+figcaption{
+	font-family: "Courier new"; 
+	color: midnightblue;
+}
+
