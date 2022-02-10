@@ -101,6 +101,14 @@ p {
       color: #fff;
 }
 
+a {
+      color: #fff;
+}
+
+td {
+      color: #fff;
+}
+
 .fade-in-down {
       color: #fff;
       animation: fadeIn 1s;
@@ -172,4 +180,21 @@ body ul li a {
 
 
 }
-      
+
+input[type=text] {
+    border-color:#A080C4;
+}
+
+input[type=password] {
+    border-color:#A080C4;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#A080C4;
+    color: #fff; 
+   
+}
+ a:hover {
+color: #A080C4;
+}
