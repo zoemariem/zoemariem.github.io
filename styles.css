@@ -151,5 +151,25 @@ transform: translateY(0):
 }
 
 .navbar {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
+body ul li a {
+      text-decoration: none;
+      color: #fff;
+
+}
+
+.content {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 150px;
+
+
+}
+      
